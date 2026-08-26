@@ -1,0 +1,9 @@
+def contagem_regressiva(numero):
+    while numero >= 0:
+        print(numero)
+        numero -= 1
+
+
+numero = int(input("Digite um número inteiro: "))
+
+contagem_regressiva(numero)
